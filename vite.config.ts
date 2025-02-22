@@ -5,6 +5,7 @@ import path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
+  base: "/Highcharts-Vue-3/",
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './'),
